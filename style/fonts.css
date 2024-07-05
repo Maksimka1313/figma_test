@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"NEXT ART_Bold";
+    src: url(../fonts/NEXT\ ART_Bold.otf);
+}
+@font-face {
+    font-family:"NEXT ART_Heavy";
+    src: url(../fonts/NEXT\ ART_Heavy.otf);
+}
+@font-face {
+    font-family:"NEXT ART_Light";
+    src: url(../fonts/NEXT\ ART_Light.otf);
+}
+@font-face {
+    font-family:"NEXT ART_Regular";
+    src: url(../fonts/NEXT\ ART_Regular.otf);
+}
+@font-face {
+    font-family:"NEXT ART_SemiBold";
+    src: url(../fonts/NEXT\ ART_SemiBold.otf);
+}
