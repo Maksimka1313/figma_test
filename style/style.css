@@ -1190,7 +1190,7 @@ a {
 .footer_section {
     background-color: #1A3E3E;
     margin: 0 auto;
-    min-height: 587px;
+    min-height: 584px;
     padding-top: 159px;
 }
 
@@ -1201,11 +1201,13 @@ a {
 
 .footer_content {
     display: flex;
+    justify-content: space-between;
+    gap: 5px;
 }
 
 .footer_content_item {
-    width: 456px;
-    height: 263px;
+    max-width: 430px;
+    flex: 1;
 
 }
 
@@ -1285,15 +1287,12 @@ a {
 }
 
 .footer_content-2 {
-    width: 280px;
-    height: 234px;
+    max-width: 280px;
+    flex: 1;
 
 
 }
 
-.footer_menu {
-    width: 333px;
-}
 
 .footer_menu_title {
     font-family: "Nunito Sans", sans-serif;
@@ -1302,7 +1301,6 @@ a {
     line-height: 24px;
     text-align: left;
     color: #F3F5F4;
-    padding-left: 44px;
     margin-top: 17px;
     margin-bottom: 20px;
 
@@ -1325,7 +1323,7 @@ a {
 }
 
 .menu_section_footer {
-    padding-left: 46px;
+    padding-left: 0px;
 }
 
 .item_menu_footers:hover .item_menu_footers {
@@ -1339,6 +1337,85 @@ a {
 
 .footer_content_item_12 {
     float: right;
-    margin-top: -2px;
+    background-position: right center;
     padding-left: 18px;
 }
+
+
+.footer_content-3 {
+    max-width: 280px;
+    flex: 1;
+}
+
+.footer_menu_title_item {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #F3F5F4;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.menu_section_footer_item {
+    padding-left: 2px;
+}
+
+.item_menu_footers_item {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #FDFDFD;
+    text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding-bottom: 16px;
+}
+
+.item_menu_footers_item:hover .item_menu_footers_item {
+    fill: #F2BE22;
+}
+
+.item_menu_footers_item:hover {
+    color: #F2BE22;
+    text-decoration: underline;
+}
+
+.footer_bottom {
+    margin: 0 auto;
+    min-height: 66px;
+    margin-top: 76px;
+    background-color: #18121E;
+}
+
+.footer_conteiner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text_footer_main_section {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding-top: 26px;
+    transition: all .1s;
+}
+
+.text_footer_main_section:hover {
+    color: #F2BE22;
+
+}
+
+
+/*================================================Footer rules=========================================*/
